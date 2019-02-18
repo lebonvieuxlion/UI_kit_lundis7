@@ -1,0 +1,398 @@
+body{
+	margin: 0px;
+}
+
+
+/************************/
+/* 	    COULEURS        */
+/************************/
+
+.primary {
+	background-color: #012249;
+}
+
+.text-primary {
+  color: #012249;
+}
+
+
+.secondary {
+	background-color: #ffffff;
+}
+
+.text-secondary {
+  color: #ffffff;	
+}
+
+.light {
+	background-color: #c4c4c4;
+}
+
+.medium-light {
+	background-color: #6d6c6a;
+}
+
+.dark {
+	background-color: #465b68;
+
+}
+
+.danger {
+		background-color: #ba1425;
+}
+
+.warning {
+		background-color: #f2d037;
+}
+
+.success {
+		background-color: #286d47;
+}
+
+.info {
+		background-color: #287ca8;
+}
+
+/************************/
+/* 	    HEADINGS        */
+/************************/
+
+.header{
+    font-family: 'Ubuntu Mono', monospace;
+    margin-left: 20px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 45px;
+}
+
+h3{
+	font-size: 40px;
+}
+
+h4{
+	font-size: 35px;
+}
+
+h5{
+	font-size: 30px;
+}
+
+h6{
+	font-size: 25px;
+}
+
+.text{    
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: justify;
+  	text-justify: inter-word;
+}
+
+
+.rectangle {
+  height: 50px;
+  width: 100px;
+  border-style: solid;
+  border-color: white;
+  border: none;
+}
+
+/************************/
+/* 	    BUTTONS        */
+/************************/
+
+.btn{
+  border: none;
+  padding: 15px 28px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.btn-lg {
+	padding: unset;
+  	padding: 30px 70px;
+
+}
+
+.btn-sm {
+	padding: unset;
+  	padding: 10px 20px;
+
+}
+
+/*  Secondary  */
+ 
+ .btn-secondary {
+  background-color: #ffffff; 
+  color: #012249; 
+}
+
+
+.btn-outline-secondary {
+  background-color: #ffffff; 
+  color: #012249; 
+}
+
+.btn-outline-secondary:hover {
+  background-color: #012249;
+  color: white;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+
+
+
+
+/*  Dark grey  */
+ 
+ .btn-dark {
+  background-color: #465b68; 
+  color: white; 
+}
+
+
+.btn-outline-dark {
+  background-color: #465b68; 
+  color: white; 
+}
+
+.btn-outline-dark:hover {
+  background-color: white;
+  color: #465b68;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+/*  Medium grey  */
+ 
+ .btn-medium {
+  background-color: #6d6c6a; 
+  color: white; 
+}
+
+
+.btn-outline-medium {
+  background-color: #6d6c6a; 
+  color: white; 
+}
+
+.btn-outline-medium:hover {
+  background-color: white;
+  color: #465b68;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+/*  Light grey  */
+ 
+ .btn-light {
+  background-color: #c4c4c4; 
+  color: white; 
+}
+
+
+.btn-outline-light {
+  background-color: #c4c4c4; 
+  color: white; 
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #465b68;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+/*  Danger  */
+ 
+ .btn-danger {
+  background-color: #ba1425; 
+  color: white; 
+}
+
+
+.btn-outline-danger {
+  background-color: #ba1425; 
+  color: white; 
+}
+
+.btn-outline-danger:hover {
+  background-color: white;
+  color: #ba1425;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+/*  Warning  */
+ 
+ .btn-warning {
+  background-color: #f2d037; 
+  color: white; 
+}
+
+
+.btn-outline-warning {
+  background-color: #f2d037; 
+  color: white; 
+}
+
+.btn-outline-warning:hover {
+  background-color: white;
+  color: #f2d037;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+/*  Success  */
+ 
+ .btn-success {
+  background-color: #286d47; 
+  color: white; 
+}
+
+
+.btn-outline-success {
+  background-color: #286d47; 
+  color: white; 
+}
+
+.btn-outline-success:hover {
+  background-color: white;
+  color: #286d47;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+/*  Info  */
+ 
+ .btn-info {
+  background-color: #287ca8; 
+  color: white; 
+}
+
+
+.btn-outline-info {
+  background-color: #287ca8; 
+  color: white; 
+}
+
+.btn-outline-info:hover {
+  background-color: white;
+  color: #287ca8;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+/************************/
+/* 	    ALERT        */
+/************************/
+
+.alert {
+  color: white;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+
+/************************/
+/* 	    ICON        */
+/************************/
+
+.fas {
+  color: white;
+}
+
+/************************/
+/* 	    FORM        */
+/************************/
+
+.form {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-family: 'Comfortaa', cursive;
+}
+
+.form-group{
+	margin: 20px; 
+	display: flex;
+
+	flex-direction: unset;
+	flex-direction: row;
+}
+
+.form-element{
+	margin-right: : 10px; 
+	margin-left: 10px;
+}
+
+.text-field{
+	width: 50%;
+	height: 20px;
+}
+
+.text-area{
+	width: 50%;
+}
+
+.select{
+	background-color: white;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+/************************/
+/* 	    LIST        */
+/************************/
+
+.list-group{
+	background-color: white;
+	font-family: 'Comfortaa', cursive;
+	color: #012249;
+	width: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border-radius: 8px;
+	margin: 20px;
+
+}
+
+.list-title{
+	margin: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	font-family: 'Comfortaa', cursive;
+}
+
+.list-item{
+	border-bottom: 1px solid;
+	border-color: #012249;
+    list-style-type: none;
+}
